@@ -12,13 +12,10 @@ ThemeData buildAppTheme() {
       elevation: 0,
     ),
     dividerTheme: const DividerThemeData(thickness: 0.6, space: 0.6),
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       color: Colors.white,
       surfaceTintColor: Colors.white,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(14),
-        side: BorderSide(color: Colors.grey.shade200),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14), side: BorderSide(color: Colors.grey.shade200)),
       elevation: 0,
     ),
     inputDecorationTheme: InputDecorationTheme(
